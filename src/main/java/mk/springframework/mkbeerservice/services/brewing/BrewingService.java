@@ -1,4 +1,4 @@
-package mk.springframework.mkbeerservice.services;
+package mk.springframework.mkbeerservice.services.brewing;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
