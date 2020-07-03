@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import mk.springframework.mkbeerservice.config.JmsConfig;
 import mk.springframework.mkbeerservice.domain.Beer;
-import mk.springframework.mkbeerservice.events.BrewBeerEvent;
+import mk.springframework.common.events.BrewBeerEvent;
 import mk.springframework.mkbeerservice.repositories.BeerRepository;
 import mk.springframework.mkbeerservice.services.inventory.BeerInventoryService;
 import mk.springframework.mkbeerservice.web.mappers.BeerMapper;

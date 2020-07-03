@@ -1,4 +1,4 @@
-package mk.springframework.mkbeerservice.events;
+package mk.springframework.common.events;
 
 import lombok.*;
 import mk.springframework.mkbeerservice.web.model.BeerDto;
