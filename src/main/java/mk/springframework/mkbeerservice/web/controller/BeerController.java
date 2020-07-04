@@ -2,9 +2,9 @@ package mk.springframework.mkbeerservice.web.controller;
 
 import lombok.RequiredArgsConstructor;
 import mk.springframework.mkbeerservice.services.BeerService;
-import mk.springframework.mkbeerservice.web.model.BeerDto;
-import mk.springframework.mkbeerservice.web.model.BeerPagedList;
-import mk.springframework.mkbeerservice.web.model.BeerStyleEnum;
+import mk.springframework.brewery.model.BeerDto;
+import mk.springframework.brewery.model.BeerPagedList;
+import mk.springframework.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

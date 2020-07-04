@@ -1,8 +1,8 @@
 package mk.springframework.mkbeerservice.services;
 
-import mk.springframework.mkbeerservice.web.model.BeerDto;
-import mk.springframework.mkbeerservice.web.model.BeerPagedList;
-import mk.springframework.mkbeerservice.web.model.BeerStyleEnum;
+import mk.springframework.brewery.model.BeerDto;
+import mk.springframework.brewery.model.BeerPagedList;
+import mk.springframework.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

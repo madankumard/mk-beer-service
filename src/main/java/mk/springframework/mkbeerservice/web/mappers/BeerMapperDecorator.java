@@ -3,7 +3,7 @@ package mk.springframework.mkbeerservice.web.mappers;
 
 import mk.springframework.mkbeerservice.domain.Beer;
 import mk.springframework.mkbeerservice.services.inventory.BeerInventoryService;
-import mk.springframework.mkbeerservice.web.model.BeerDto;
+import mk.springframework.brewery.model.BeerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class BeerMapperDecorator implements BeerMapper {

@@ -3,7 +3,7 @@ package mk.springframework.mkbeerservice.bootstrap;
 import lombok.RequiredArgsConstructor;
 import mk.springframework.mkbeerservice.domain.Beer;
 import mk.springframework.mkbeerservice.repositories.BeerRepository;
-import mk.springframework.mkbeerservice.web.model.BeerStyleEnum;
+import mk.springframework.brewery.model.BeerStyleEnum;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

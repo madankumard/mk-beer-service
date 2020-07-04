@@ -3,8 +3,8 @@ package mk.springframework.mkbeerservice.web.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import mk.springframework.mkbeerservice.bootstrap.BeerLoader;
 import mk.springframework.mkbeerservice.services.BeerService;
-import mk.springframework.mkbeerservice.web.model.BeerDto;
-import mk.springframework.mkbeerservice.web.model.BeerStyleEnum;
+import mk.springframework.brewery.model.BeerDto;
+import mk.springframework.brewery.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -15,7 +15,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import java.math.BigDecimal;
 import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.BDDMockito.given;

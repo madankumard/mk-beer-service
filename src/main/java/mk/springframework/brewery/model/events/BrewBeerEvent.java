@@ -1,7 +1,7 @@
-package mk.springframework.common.events;
+package mk.springframework.brewery.model.events;
 
 import lombok.NoArgsConstructor;
-import mk.springframework.mkbeerservice.web.model.BeerDto;
+import mk.springframework.brewery.model.BeerDto;
 
 @NoArgsConstructor
 public class BrewBeerEvent extends BeerEvent{
